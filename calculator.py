@@ -23,6 +23,7 @@ def divide(x, y):
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
+# print valores
 print(f"{num1} + {num2} = {add(num1, num2)}")
 print(f"{num1} - {num2} = {subtract(num1, num2)}")
 print(f"{num1} * {num2} = {multiply(num1, num2)}")
