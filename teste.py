@@ -13,3 +13,16 @@ print(x)
 print(y)
 print(z)
 
+import math
+raiz_quadrada_de_9 = sqrt(9)
+print(raiz_quadrada_de_9)
+
+#função
+def dobro(x):
+    return x*2
+
+
+numeros=[1,2,3,'ola',4]
+print(numeros)
+for numeros in numeros:
+    print(dobro(numeros))
