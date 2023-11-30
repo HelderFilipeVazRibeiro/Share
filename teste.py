@@ -24,7 +24,7 @@ for numeros in numeros:
     
 nome_do_personagem = 'Antonio'
 idade_do_personagem = '33'
-print ('O nome do nosso personagem é ' + nome_do_personagem + '\ne tem uma idade de ' + idade_do_personagem + 'anos')
+print ('O nome do nosso personagem é ' + nome_do_personagem + '\ne tem uma idade de ' + idade_do_personagem + 'anos') #concatenar   ----> juntas as string + texto a juntar +  
 
 texto = "Texto Escrito para Teste"
 print (texto.upper())
@@ -50,3 +50,14 @@ print(2**3)
 print (round(3.141592653589793, 2))
 x2 = 9999.32432
 print(round(x2,2))
+
+texto = "O número é: {}".format(x2)
+print(texto)
+
+print("Formation 29/11 ")
+
+nome = input("Digite o seu nome: ")
+idade = input("Digite a sua idade: ")
+print("O seu nome é", nome)
+print("Você tem", idade, "anos.")
+input#
