@@ -1,0 +1,65 @@
+######################## IMPORTAÇÃO DE BIBLIOTECAS ########################
+
+#   Introdução automática de tecla sem recorrer á tecla enter.
+#  Biblioteca para o windows (msvcrt) no linux poderá ser utilizada a biblioteca (curses).
+
+import curses
+
+def get_key():          #   definição de uma nova função
+    return curses.getch().decode('utf-8')      
+
+#   utilização da função (getch) e (decode) para intrepretar a intrudução do operador na calculadora
+############################## DECLARAÇÃO INICIAL DE CLASSES E FUNÇÕES #################
+float = num1, num2
+
+
+
+######## CLASSE CALCULADORA ###########
+class Calculadora:
+    def __init__(self):
+        pass
+
+def calcular(self, num1, operador, num2):
+    if operador == '+':
+        return num1 + num2
+    elif operador == '-':
+        return num1 - num2
+    elif operador == '*':
+        return num1 * num2
+    elif operador == '/':
+        if num2 == 0:
+            return "Erro: Divisão por zero."
+        else:
+            return num1 / num2
+    else:
+        return "Operador inválido."
+
+########################### FIM DA CLASSE ######################
+
+
+
+################################################ INICIO DA CALCULADORA ##############################################################
+
+calc = Calculadora() # Chamada da classe ao "programa"
+
+
+
+numero1 = float(input("Indique o primeiro número: ")) #  Pedido para a Introdução do primeiro Valor
+print ("Qual o operador? \",*,-,+\"")   # Apresentação de uma mensagem para o utilizador a pedir a introdução do operador, que será aceite de imidiato.
+operador = get_key() #  Antes tinhamos input() em que o utilizador teria de pressionar a tecla enter, e passamos a definir (def) uma função chamada (get_key) para que a introdução seja aceite automáticamente.
+numero2 = float(input("Indique o segundo número: ")) #  Pedido para a Introdução do segundo Valor
+
+resultado = calc.calcular(numero1, operador, numero2) # Realiza o cálculo dos diferentes valores dependendo do operador introduzido
+print ("Resultado:", resultado) # Apresenta o resultado final da operação.
+
+####################################################
+
+#Pontos a realizar:
+
+# A partir do código apresentado crie soluções para que o codigo fique mais robusto. Alguns dos pontos a realizar são:
+# 1- Na Introdução de um operadores (se) incorrecto apresente uma mensagem para que o utilizador introduza um operador valido sem perder a funcionalidade da progressão automática do programa.
+# 2- Permissão para a introdução de valores decimais a serem calculados.
+# 3- Crie uma (forma) mecanismo para que a calculadora não encerre após o primeiro cálculo mas sim após o utilizador persionar a tecla "Esc".
+
+#A tecla "Esc" em representação ASCII é: '\x1b'
+#Submeta o seu trabalho em um ficheiro txt.
