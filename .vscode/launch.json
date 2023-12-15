@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/helderribeiro/Documents/Github/Share/exercicios c",
-      "program": "/Users/helderribeiro/Documents/Github/Share/exercicios c/build/Debug/outDebug"
+      "cwd": "/Users/orangedynamic/Documents/GitHub/Share/exercicios c",
+      "program": "/Users/orangedynamic/Documents/GitHub/Share/exercicios c/build/Debug/outDebug"
     }
   ]
 }
