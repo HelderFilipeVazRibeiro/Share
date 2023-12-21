@@ -13,4 +13,4 @@ print(salt)
 hash = bcrypt.hashpw(senha.encode('utf-8'), salt)
 
 # Print the generated hash
-print(hash)
+print(f"Hash = {hash}")
