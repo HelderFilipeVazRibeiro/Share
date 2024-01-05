@@ -1,0 +1,9 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/orangedynamic/Documents/GitHub/Share/Exercicios_C aula/output/teste'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Asteriscos, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Asteriscos, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0x50 }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _ABC, symObjAddr: 0x50, symBinAddr: 0x100003EE0, symSize: 0x50 }
+  - { offsetInCU: 0x97, offset: 0x97, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA0, symBinAddr: 0x100003F30, symSize: 0x67 }
+...
