@@ -1,0 +1,8 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/orangedynamic/Documents/GitHub/Share/Exercicios_C aula/output/function_desconto'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _calcularNovoValor, symObjAddr: 0x0, symBinAddr: 0x100003E50, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _calcularNovoValor, symObjAddr: 0x0, symBinAddr: 0x100003E50, symSize: 0x40 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x40, symBinAddr: 0x100003E90, symSize: 0x8B }
+...
