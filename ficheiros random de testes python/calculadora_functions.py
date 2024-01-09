@@ -55,14 +55,17 @@ try:
     elif operacao == "-":
         resultado = sub(num1, num2)
         print(f"O resultado da subtração de {num1} - {num2} é: {resultado}")
- #senão se
+#senão se
     elif operacao == "*":
         resultado = mult(num1, num2)
         print(f"O resultado da multiplicação de {num1} * {num2} é: {resultado}")
-#senão
+#senão se
     elif operacao == "/":
         resultado = div(num1, num2)
         print(f"O resultado da divisão de {num1} / {num2} é: {resultado}")
+#senão     
+    else:
+        print("Operador inválido.")
 
 # calculos finais
     print(f"A média de {num1} e {num2} é: {round(media(num1, num2),2)}")
